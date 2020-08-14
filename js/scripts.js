@@ -40,13 +40,7 @@ cDivTag.innerHTML = 'Klikkaa t&auml;st&auml;';
 if(cookieCategory === 'functional'){
 cDivTag.innerHTML = "T&auml;m&auml;n sivun komponenttia ei voida n&auml;ytt&auml;&auml;, koska se k&auml;ytt&auml;&auml; toiminnallisia ev&auml;steit&auml;, joita et ole hyv&auml;ksynyt. ";
 }else if(cookieCategory === 'statistical'){
-cDivTag.innerHTML = "T&auml;m&auml;n sivun komponenttia ei voida n&auml;ytt&auml;&auml;, koska se k&auml;ytt&auml;&auml; tilastollisia ev&auml;steit&auml;, joita et ole hyv&auml;ksynyt. ";
-}else if(cookieCategory === 'marketing'){
-cDivTag.innerHTML = "T&auml;m&auml;n sivun komponenttia ei voida n&auml;ytt&auml;&auml;, koska se k&auml;ytt&auml;&auml; markkinointiev&auml;steit&auml;, joita et ole hyv&auml;ksynyt. ";
-}else if(cookieCategory === 'unclassified'){
-cDivTag.innerHTML = "T&auml;m&auml;n sivun komponenttia ei voida n&auml;ytt&auml;&auml;, koska se k&auml;ytt&auml;&auml; luokittelemattomia ev&auml;steit&auml;, joita et ole hyv&auml;ksynyt. ";
-}else{
-cDivTag.innerHTML = "T&auml;m&auml;n sivun komponenttia ei voida n&auml;ytt&auml;&auml;, koska se k&auml;ytt&auml;&auml; ev&auml;steit&auml;, joita et ole hyv&auml;ksynyt. ";
+cDivTag.innerHTML = "T&auml;m&auml;n sivun komponenttia ei voida n&auml;ytt&auml;&auml;, koska se k&auml;ytt&auml;&auml; tilastollisia 
 }
 cDivTag.appendChild(cLinkATag); 
 cBlockElement.innerHTML = '';
